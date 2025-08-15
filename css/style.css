@@ -706,7 +706,7 @@
     transition: 0.5s;
 }
 
-.team .team-item .team-title h4 {
+.team .team-item .team-title h5 {
     color: var(--bs-white);
 }
 
