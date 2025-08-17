@@ -651,6 +651,21 @@
 }
 /*** Blog End ***/
 
+/*** Course Design Example Intro Begin ***/
+.course-elem-list-group li {
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    font-weight: bold;
+}
+
+.course-elem-list-group li:hover {
+    background: var(--bs-dark);
+    color: var(--bs-white);
+    font-weight: bold;
+}
+
+
+/*** Course Design Example Intro End ***/
 
 /*** Team Start ***/
 .team .team-item .team-img {
