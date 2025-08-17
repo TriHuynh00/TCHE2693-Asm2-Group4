@@ -162,7 +162,7 @@
                         <div class="row g-4 align-items-center">
                             <div class="col-lg-7 animated fadeInLeft">
                                 <div class="text-sm-center text-md-start">
-                                    <h4 class="text-white text-uppercase fw-bold mb-4">Training Program - Designinh Library Workshop  </h4>
+                                    <h4 class="text-white text-uppercase fw-bold mb-4">Training Program - Designing Library Workshop  </h4>
                                     <h1 class="display-2 text-white mb-4">Design Inclusive, Inspiring Workshop to Empower Learners </h1>
                                     <p class="mb-5 fs-5">Apply Universal Design for Learning Framework to design course materials tailored to the needs and interests of diverse learners. 
                                     </p>
@@ -612,7 +612,7 @@
 
         <!-- Example Course Modeling Begin -->
 
-        <div class="container-fluid faq-section bg-light py-5">
+        <div id="section-course-intro" class="container-fluid faq-section bg-light py-5">
             <div class="container py-5">
                 <div class="row g-3 align-items-center">
                     
@@ -643,22 +643,23 @@
 
                             <div class="card w-100 gap-3 border-0 bg-light">
                                 
-                                <button class="btn btn-primary rounded-pill w-100"
-                                    onclick="
+                                <!-- onclick="
                                         const el = document.getElementById('section-ilos');
                                         const y = el.getBoundingClientRect().top + window.pageYOffset - 100;
                                         window.scrollTo({ top: y, behavior: 'smooth' });
-                                    ">
-                                    Intended Learning Outcomes (ILOs)
-                                </button>
-                            
+                                    " -->
+                                <a href="#section-ilos" class="text-decoration-none">
+                                    <button class="btn btn-primary rounded-pill w-100">
+                                        See Intended Learning Outcomes (ILOs)
+                                    </button>
+                                </a>
 
                                 <a href="#section-assessments" class="text-decoration-none">
-                                    <button class="btn btn-primary rounded-pill w-100">Assessments</button>
+                                    <button class="btn btn-primary rounded-pill w-100">See Assessments</button>
                                 </a>
 
                                 <a href="#section-activities" class="text-decoration-none">
-                                    <button class="btn btn-primary rounded-pill w-100">Activities</button>
+                                    <button class="btn btn-primary rounded-pill w-100">See Activities</button>
                                 </a>
                                 <!-- <ul class="list-group list-group-flush course-elem-list-group">
                                     <li class="list-group-item">Intended Learning Outcome (ILO)</li>
@@ -678,8 +679,10 @@
             </div>
 
             <!-- <div class="container mt-5"  id="section-ilos"> -->
-            <div class="container feature bg-light mt-5" id="section-ilos">
-                <div class="col-xl-12 wow fadeInLeft mb-5" data-wow-delay="0.2s">
+            <div id="section-ilos" class="mt-5 pt-5"></div>
+
+            <div class="container feature bg-light" >
+                <div  class="col-xl-12 wow fadeInLeft mt-5 mb-5" data-wow-delay="0.2s">
                     <h1 class="display-4" >Intended Learning Outcomes (ILOs)</h1>
                 </div>
 
@@ -726,13 +729,34 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row mt-4 g-3">
+                    <div class="col-md-4 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <a href="#section-course-intro" class="text-decoration-none">
+                            <button class="btn btn-primary rounded-pill w-100">Back to Course Introduction</button>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <a href="#section-assessments" class="text-decoration-none">
+                            <button class="btn btn-primary rounded-pill w-100">See Assessments</button>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <a href="#section-activities" class="text-decoration-none">
+                            <button class="btn btn-primary rounded-pill w-100">See Activities</button>
+                        </a>
+                    </div>
+
+                </div>
             </div>
         </div>
         
         <!-- Example Course Modeling End -->
 
         <!-- Team Start -->
-        <div class="container-fluid team pb-5">
+        <div class="container-fluid team pb-5 mt-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Team</h4>
