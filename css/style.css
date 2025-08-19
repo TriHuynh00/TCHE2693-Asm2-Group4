@@ -909,4 +909,10 @@
 }
 /*** copyright end ***/
 
+.h40 {
+    min-height: 60vh;
+}
 
+.vh-25 {
+    height: 25vh;
+}
