@@ -434,6 +434,11 @@
     background: var(--bs-dark);
     color: var(--bs-white);
 }
+
+.feature-item:hover a {
+    color: orange;
+    text-decoration: underline;
+}
 /*** Feature End ***/
 
 
