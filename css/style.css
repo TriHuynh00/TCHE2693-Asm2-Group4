@@ -439,6 +439,11 @@
     color: orange;
     text-decoration: underline;
 }
+
+.feature .feature-item h4 {
+    color: var(--bs-primary);
+}
+
 /*** Feature End ***/
 
 
@@ -592,6 +597,11 @@
 .accordion .accordion-item .accordion-header .accordion-button.collapsed {
     color: var(--bs-primary);
     background: var(--bs-light);
+}
+
+.accordion-body span {
+    color: var(--bs-primary); 
+    text-decoration: underline;
 }
 /*** FAQs End ***/
 

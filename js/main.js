@@ -102,3 +102,10 @@
 
 })(jQuery);
 
+function scrollToElement(elementName) {
+    const el = document.getElementById(elementName);
+    const y = el.getBoundingClientRect().top + window.pageYOffset - 100;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+}
+
+
